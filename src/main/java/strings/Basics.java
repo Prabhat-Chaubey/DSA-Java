@@ -8,20 +8,15 @@ public class Basics {
         Basics object = new Basics();
 
         //taking inputs
-        //object.TaKingInputs();
-
+        object.TaKingInputs();
         //concatination
-        //object.concatination("Hello","Ruchi");
-
+        object.concatination("Hello","Ruchi");
         //comparison
-        //object.comparison("Hello","HeLlo");
-
+        object.comparison("Hello","HeLlo");
         //containsornot
-        //object.containsornot("HelloWorld","World");
-
+        object.containsornot("HelloWorld","World");
         //caseconversion
-        //object.caseconversion("Prabhat");
-
+        object.caseconversion("Prabhat");
         //spliting the stirng
         object.spliting("Apple,banana,kela");
     }
