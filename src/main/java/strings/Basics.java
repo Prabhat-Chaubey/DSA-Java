@@ -14,7 +14,16 @@ public class Basics {
         //object.concatination("Hello","Ruchi");
 
         //comparison
-        object.comparison("Hello","HeLlo");
+        //object.comparison("Hello","HeLlo");
+
+        //containsornot
+        //object.containsornot("HelloWorld","World");
+
+        //caseconversion
+        //object.caseconversion("Prabhat");
+
+        //spliting the stirng
+        object.spliting("Apple,banana,kela");
     }
 
 
@@ -48,4 +57,24 @@ public class Basics {
         Boolean isEqual  = s1.equalsIgnoreCase(s2);
         System.out.println(isEqual);
     }
+
+    public void containsornot(String s1,String s2){
+        Boolean containsornot = s1.contains(s2);
+        System.out.println(containsornot);
+
+    }
+    public void caseconversion(String input){
+        String uppercase = input.toUpperCase();
+        String lowerCase = input.toLowerCase();
+        System.out.println(uppercase);
+        System.out.println(lowerCase);
+    }
+
+    public void spliting(String input){
+        String[] splitedstring = input.split(",");
+        for(String i : splitedstring){
+            System.out.println(i);
+        }
+    }
+
 }
